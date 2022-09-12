@@ -272,4 +272,49 @@ section .section_title {
 #section-services .section_title {
   text-align: center;
 }
+
+#section-tarifs {
+  background-color: #1e1e1e;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 60%;
+      grid-template-columns: 40% 60%;
+  padding: 0 !important;
+}
+
+#section-tarifs .section_title {
+  color: #F1D255;
+  text-align: center;
+}
+
+.tarifs_background {
+  background-image: url(./assets/outils-barber.jpg);
+  background-size: cover;
+}
+
+.tarifs_content {
+  padding: 2em;
+}
+
+.tarif_service {
+  margin-bottom: 2em;
+}
+
+.tarif_wrapServiceTitlePrice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.tarif_service-title, .tarif_price {
+  font-size: clamp(10px, 23px, 2vw);
+}
+
+.tarif_service-title, .tarif_price, .tarif_service-details {
+  color: #dddddd;
+}
 /*# sourceMappingURL=index.css.map */

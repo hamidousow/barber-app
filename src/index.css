@@ -241,8 +241,8 @@ section .section_title {
 }
 
 .service_card {
-  width: 350px;
-  height: 400px;
+  max-width: 520px;
+  height: auto;
 }
 
 .service_card img {
@@ -262,5 +262,14 @@ section .section_title {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-column-gap: 5px;
+          column-gap: 5px;
+}
+
+#section-services .section_title {
+  text-align: center;
 }
 /*# sourceMappingURL=index.css.map */

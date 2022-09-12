@@ -25,7 +25,7 @@ const Service = () => {
     ]
 
     return (
-        <section>
+        <section id="section-services">
             <h2 className='section_title'>nos services</h2>
             <div className='services-container'>
                 {services.map((service) => {

@@ -1,0 +1,30 @@
+$clr-grey: #dddddd;
+$clr-black: #1e1e1e;
+$clr-yellow: #F1D255;
+
+body {
+    background-color: $clr-grey;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#root section {
+    padding: 5em 10em;
+}
+
+section .section_title {
+    font-size: clamp(25px, 45px, 4vw);
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    font-size: clamp(15px, 24px, 2vw);
+    font-weight: 700;    
+    margin: 1em 0;
+}

@@ -1,0 +1,30 @@
+.about_contentWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 5em;
+}
+
+.about_left {
+    flex: 1;
+}
+
+.about_right {
+    display: flex;
+    justify-content: center;
+
+    .about_subtitle {
+        text-align: center;
+    }
+}
+
+.about_text {
+    font-size: clamp(10px, 21px, 4vw);
+}
+
+.about_img {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+}

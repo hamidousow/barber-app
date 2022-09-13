@@ -293,7 +293,7 @@ section .section_title {
 }
 
 .tarifs_content {
-  padding: 2em;
+  padding: 2em 4em;
 }
 
 .tarif_service {
@@ -316,5 +316,10 @@ section .section_title {
 
 .tarif_service-title, .tarif_price, .tarif_service-details {
   color: #dddddd;
+}
+
+.carousel-item {
+  max-width: 800px;
+  height: 2vh;
 }
 /*# sourceMappingURL=index.css.map */

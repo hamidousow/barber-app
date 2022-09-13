@@ -1,0 +1,38 @@
+#section-tarifs {
+    background-color: $clr-black;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 0!important;
+}
+
+#section-tarifs .section_title {
+    color: $clr-yellow;
+    text-align: center;
+}
+
+.tarifs_background {
+    background-image: url(./assets/outils-barber.jpg);
+    background-size: cover;
+}
+
+.tarifs_content {
+    padding: 2em 4em;
+}
+
+.tarif_service {
+    margin-bottom: 2em;
+}
+
+.tarif_wrapServiceTitlePrice {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.tarif_service-title, .tarif_price {
+    font-size: clamp(10px, 23px, 2vw);    
+}
+
+.tarif_service-title, .tarif_price, .tarif_service-details {
+    color: $clr-grey;
+}

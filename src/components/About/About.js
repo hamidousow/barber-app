@@ -43,7 +43,7 @@ const About = () => {
                                 <SocialIcon 
                                     src={icon.src}
                                     alt={icon.alt}
-                                    index={icon.id}
+                                    key={icon.id}
                                     className={icon.className}
                                 /> 
                             )

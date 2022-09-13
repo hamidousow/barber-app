@@ -8,17 +8,20 @@ const Tarifs = () => {
         {
             title: "Taper",
             price: "15.00€",
-            details: "quelques détails concernant le service"
+            details: "quelques détails concernant le service",
+            id: "123"
         },
         {
             title: "Teinture",
             price: "30.00€",
-            details: "quelques détails concernant le service"
+            details: "quelques détails concernant le service",
+            id: "456"
         },
         {
             title: "Taille barbe à l'ancienne",
             price: "10.00€",
-            details: "quelques détails concernant le service"
+            details: "quelques détails concernant le service",
+            id: "789"
         }        
     ]
     return (
@@ -29,13 +32,13 @@ const Tarifs = () => {
             <div className='tarifs_content'>
                 <h2 className="section_title">Tarifs</h2>
                 <ul>
-                    {tabTarifs.map((tarif, index) => {
-                        return <li className='tarif_service'>
-                            <div className='tarif_wrapServiceTitlePrice'>
-                                <p className='tarif_service-title'>{tarif.title}</p>
-                                <p className='tarif_price'>{tarif.price}</p>
-                            </div>                                    
-                            <p className='tarif_service-details'>{tarif.details}</p>
+                    {tabTarifs.map((tarif) => {
+                        return <li className='tarif_service' key={tarif.id}>
+                                <div className='tarif_wrapServiceTitlePrice'>
+                                    <p className='tarif_service-title'>{tarif.title}</p>
+                                    <p className='tarif_price'>{tarif.price}</p>
+                                </div>                                    
+                                <p className='tarif_service-details'>{tarif.details}</p>
                             </li>
                     })}
                 </ul>

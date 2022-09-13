@@ -10,17 +10,20 @@ const Service = () => {
         {
             imgSrc: haircut,
             alt: "du blabla",
-            title: "Haircut" 
+            title: "Haircut",
+            id: "12" 
         },
         {
             imgSrc: haircut,
             alt: "du blabla",
-            title: "Barbe" 
+            title: "Barbe",
+            id: "23" 
         },
         {
             imgSrc: haircut,
             alt: "du blabla",
-            title: "épilation au fil" 
+            title: "épilation au fil",
+            id: "34" 
         }
     ]
 
@@ -33,7 +36,8 @@ const Service = () => {
                         <Card
                             imgSrc={service.imgSrc}
                             alt={service.alt}
-                            title={service.title}            
+                            title={service.title}  
+                            key={service.id}          
                         />
                     )
                 })} 

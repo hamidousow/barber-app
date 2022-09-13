@@ -1,39 +1,31 @@
-import React from 'react'
-import barberAction from '../../assets/barber-action.jpg'
-import beard from '../../assets/beard.jpg'
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
+import Slider from 'react-slick';
 
-const Carousel = () => {
+const Carousel = ({images}) => {
 
-    const tabImages = [
-        {
-            src: barberAction,
-            id: "barber-action"
-        },        
-        {
-            src: beard,
-            id: "beard"
-        }
-    ]
+    const settings = {
+        infinite: true,
+        dots: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        lazyLoad: true,
+        autoplay: false,
+        autoplaySpeed: 2000,
+    };
+    
     return (
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-            {tabImages.map((image) => {
-                return ( 
-                    <div class="carousel-item active" id={image.id}>
-                        <img src={image.src} class="d-block" alt={image.alt}/>
-                    </div>
-                )
-            })}
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-            </div>
+        <>
+        <div className="imgslider">
+            <Slider {...settings}>
+            {images.map((item) => (
+                <div key={item.id}>
+                    <img src={item.src}  alt={item.alt} />
+                </div>
+            ))}
+            </Slider>
+        </div>
+        </>
     );
 };
 

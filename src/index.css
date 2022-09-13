@@ -318,8 +318,9 @@ section .section_title {
   color: #dddddd;
 }
 
-.carousel-item {
-  max-width: 800px;
-  height: 2vh;
+.slick-slide img {
+  margin: auto;
+  width: 100%;
+  height: auto;
 }
 /*# sourceMappingURL=index.css.map */

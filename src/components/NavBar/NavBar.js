@@ -23,11 +23,11 @@ const NavBar = () => {
             </div>
             <ul className='nav_menu'> 
                 <Link className='nav_link' to='/'>À propos</Link>
-                <Link className='nav_link' to='/Services'>Nos services</Link>
-                <Link className='nav_link' to='/Gallerie'>Gallerie</Link>
-                <Link className='nav_link' to='/Tarifs'>Tarifs</Link>
-                <Link className='nav_link' to='/Reservation'>Réservation</Link>
-                <Link className='nav_link' to='/Login'>Se connecter</Link>            
+                <Link className='nav_link' to='/'>Nos services</Link>
+                <Link className='nav_link' to='/'>Gallerie</Link>
+                <Link className='nav_link' to='/'>Tarifs</Link>
+                <Link className='nav_link' to='/'>Réservation</Link>
+                <Link className='nav_link' to='/'>Se connecter</Link>            
             </ul>
         </nav>
         

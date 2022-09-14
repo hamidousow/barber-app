@@ -3,7 +3,7 @@
     left: 0;
     right: 0;
     background: #1E1F1E;
-    padding: 1.5em 3em;
+    padding: 1.5em 8em;
     display: flex;
     justify-content: space-between;
     z-index: 10;
@@ -32,6 +32,6 @@
     }
 }
 
-.nav-active {
-    box-shadow: 0px 0px 5px 3px #00000040;
-}
+// .nav-active {
+//     box-shadow: 0px 0px 5px 3px #00000040;
+// }

@@ -8,7 +8,7 @@ const NavBar = () => {
 
     const isScrolling = () => {
         if(window.scrollY >= 50) {
-            setNavShadowBox(true)
+            setNavShadowBox(false)
         }
     }
     
@@ -22,10 +22,8 @@ const NavBar = () => {
                 </Link>
             </div>
             <ul className='nav_menu'> 
-                <Link className='nav_link' to='/'>À propos</Link>
-                <Link className='nav_link' to='/'>Nos services</Link>
-                <Link className='nav_link' to='/'>Gallerie</Link>
-                <Link className='nav_link' to='/'>Tarifs</Link>
+                <Link className='nav_link' to='/'>À propos</Link>                
+                <Link className='nav_link' to='/Tarifs'>Tarifs</Link>
                 <Link className='nav_link' to='/'>Réservation</Link>
                 <Link className='nav_link' to='/'>Se connecter</Link>            
             </ul>

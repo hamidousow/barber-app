@@ -21,7 +21,7 @@ const About = () => {
     
     return (
         <section>
-            <div className='about_contentWrapper'>
+            <div className='about_contentWrapper content'>
                 
                 <div className='about_left'>
                     <h1 className='section_title'>à propos</h1>                    

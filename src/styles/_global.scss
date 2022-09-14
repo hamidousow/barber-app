@@ -22,6 +22,11 @@ section .section_title {
     margin-bottom: 1.5em;
 }
 
+section .content {
+    max-width: 1400px;  
+    margin: auto;  
+}
+
 .subtitle {
     text-transform: uppercase;
     font-size: clamp(15px, 24px, 2vw);

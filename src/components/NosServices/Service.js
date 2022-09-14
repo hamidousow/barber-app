@@ -30,7 +30,7 @@ const Service = () => {
     return (
         <section id="section-services">
             <h2 className='section_title'>nos services</h2>
-            <div className='services-container'>
+            <div className='services-container content'>
                 {services.map((service) => {
                     return (
                         <Card

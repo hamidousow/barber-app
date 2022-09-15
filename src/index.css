@@ -320,6 +320,10 @@ section .content {
   color: #dddddd;
 }
 
+#section-gallery {
+  background: #1e1e1e;
+}
+
 .slick-prev {
   left: 25px;
 }

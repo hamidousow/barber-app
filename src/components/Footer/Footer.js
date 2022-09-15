@@ -1,17 +1,28 @@
 import React from 'react';
+import Logo from '../Logo/Logo';
 
 const Footer = () => {
     return (
         <footer>
-            <div>
-                <ul>
-                    <li className='footer_link'>Mentions légales</li>
-                    <li className='footer_link'>Nos services</li>
-                    <li className='footer_link'>Tarifs</li>
-                    <li className='footer_link'>Réservation</li>
-                    <li className='footer_link'>Se connecter</li>                    
+            <Logo/>
+                <ul className='footer_menu'>
+                    <li className='footer_link'>
+                        <a href='/'> Mentions légales </a>
+                    </li>
+                    <li className='footer_link'>
+                        <a href='/'> Nos services </a>
+                    </li>
+                    <li className='footer_link'>
+                        <a href='/'> Tarifs </a>
+                    </li>
+                    <li className='footer_link'>
+                        <a href='/'> Réservation </a>
+                    </li>
+                    <li className='footer_link'>
+                        <a href='/'>  Se connecter </a>
+                    </li>                    
                 </ul>
-            </div>
+        
         </footer>
     );
 };

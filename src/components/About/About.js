@@ -12,12 +12,14 @@ const About = () => {
         { src : instagramLogo,
             alt: 'instagram',
             id: 'instagram-icon',
-            className: 'about_social-icon'            
+            className: 'about_social-icon',
+            link: '/'            
         },   
         { src : snapchatLogo,
             alt: 'snapchat',
             id: 'snapchat-icon',
-            className: 'about_social-icon'            
+            className: 'about_social-icon', 
+            link: '/'           
         },   
     ]
     
@@ -28,7 +30,7 @@ const About = () => {
                 <div className='about_left'>
                     <h1 className='section_title'>à propos</h1>
                     {aboutText.map((para) => {
-                        return <Text text={para.paragraphe}/>
+                        return <Text text={para.paragraphe} key={para.id}/>
                     })}                    
                     
                 </div>
@@ -44,6 +46,7 @@ const About = () => {
                                     alt={icon.alt}
                                     key={icon.id}
                                     className={icon.className}
+                                    link={icon.link}
                                 /> 
                             )
                            })}

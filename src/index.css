@@ -84,6 +84,10 @@ section .content {
   margin: 1em 0;
 }
 
+.text {
+  font-size: clamp(10px, 21px, 4vw);
+}
+
 .nav {
   position: fixed;
   left: 0;
@@ -208,10 +212,6 @@ section .content {
 
 .about_right .about_subtitle {
   text-align: center;
-}
-
-.about_text {
-  font-size: clamp(10px, 21px, 4vw);
 }
 
 .about_img {

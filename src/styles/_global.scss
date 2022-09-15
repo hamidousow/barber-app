@@ -33,3 +33,7 @@ section .content {
     font-weight: 700;    
     margin: 1em 0;
 }
+
+.text {
+    font-size: clamp(10px, 21px, 4vw);
+}

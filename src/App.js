@@ -13,8 +13,8 @@ function App() {
     <NavBar/>           
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/About' element={<About/>}/>        
-        <Route path='/Tarifs' element={<Tarifs/>}>Tarifs</Route>        
+        <Route path='/' element={<About/>}/>        
+        <Route path='/' element={<Tarifs/>}>Tarifs</Route>        
         {/* <Route path='/Réservation' element={<Reservation/>}>Réservation</Route> */}
         {/* <Route path='/Se connecter' element={<Login/>}>Se connecter</Route>   */}
       </Routes> 

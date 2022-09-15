@@ -1,0 +1,28 @@
+footer {
+    margin-top: 4em;
+    padding: 4em;
+    background-color: $clr-black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer_menu {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding: 2em;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+    .footer_link {
+        margin-top: 3em;
+        text-align: center;
+        flex-grow: 5;
+        
+        a {
+            color: $clr-grey;
+        }
+    }
+}

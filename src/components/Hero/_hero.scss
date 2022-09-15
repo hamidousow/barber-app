@@ -6,8 +6,8 @@
 }
 
 .hero_background {
-    height: 85vh;
-    max-height: 1000px;
+    height: 80vh;
+    max-height: 800px;
     background-image: url(./assets/hero-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,7 +17,12 @@
     position: absolute;
     bottom: 6em;    
     text-transform: uppercase;
-    letter-spacing: .5em;
+    letter-spacing: .2em;
+    transition: all .5s;
+
+    &:hover {
+        letter-spacing: .5em;
+    }
 
     a {
         color: $clr-grey;

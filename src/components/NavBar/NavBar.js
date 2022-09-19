@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import logo from '../../assets/images/shaggy-barber-logo.png'
 
 const NavBar = () => {
@@ -17,15 +16,15 @@ const NavBar = () => {
     return (
         <nav className={navShadowBox ? 'nav nav-active' : 'nav'}>
             <div>
-                <Link className='nav_link nav_logo' to='/'>
+                <a className='nav_link nav_logo' href='/'>
                     <img src={logo} alt='go home'/>
-                </Link>
+                </a>
             </div>
             <ul className='nav_menu'> 
-                {/* <Link className='nav_link' to='/'>À propos</Link>                
-                <Link className='nav_link' to='/'>Tarifs</Link>
-                <Link className='nav_link' to='/'>Réservation</Link>
-                <Link className='nav_link' to='/'>Se connecter</Link> */}
+                <a className='nav_link' href='/'>À propos</a>                
+                <a className='nav_link' href='/'>Tarifs</a>
+                <a className='nav_link' href='/'>Réservation</a>
+                <a className='nav_link' href='/'>Se connecter</a>
             </ul>
         </nav>
         

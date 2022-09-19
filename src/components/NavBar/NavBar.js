@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/shaggy-barber-logo.png'
+import logo from '../../assets/images/shaggy-barber-logo.png'
 
 const NavBar = () => {
 

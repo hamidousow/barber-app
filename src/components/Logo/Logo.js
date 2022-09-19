@@ -1,5 +1,5 @@
 import React from 'react';
-import logotype from '../../assets/shaggy-barber-logotype.png'
+import logotype from '../../assets/images/shaggy-barber-logotype.png'
 
 const Logo = () => {
     return (

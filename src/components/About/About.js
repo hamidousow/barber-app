@@ -1,9 +1,9 @@
 import React from 'react'
-import shaggyInPic from '../../assets/shaggy-face.jpg'
+import shaggyInPic from '../../assets/images/shaggy-face.jpg'
 import SocialIcon from '../SocialIcons/SocialIcon'
-import instagramLogo from '../../assets/instagram.png'
-import snapchatLogo from '../../assets/snapchat.png'
-import aboutText from '../../data/AboutText'
+import instagramLogo from '../../assets/images/instagram.png'
+import snapchatLogo from '../../assets/images/snapchat.png'
+import aboutText from '../../assets/data/AboutText'
 import Text from '../Text/Text'
 
 const About = () => {

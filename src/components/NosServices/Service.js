@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from '../Card/Card';
-import haircut from '../../assets/haircut.jpg'
+import haircut from '../../assets/images/haircut.jpg'
 // import haircut from '../../assets/haircut.jpg'
 // import haircut from '../../assets/haircut.jpg'
 

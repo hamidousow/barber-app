@@ -152,7 +152,7 @@ section .content {
 .hero_background {
   height: 80vh;
   max-height: 800px;
-  background-image: url(./assets/images/hero-background.jpg);
+  background-image: url(../images/hero-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -296,7 +296,7 @@ section .content {
 }
 
 .tarifs_background {
-  background-image: url(./assets/images/outils-barber.jpg);
+  background-image: url(../images/outils-barber.jpg);
   background-size: cover;
 }
 

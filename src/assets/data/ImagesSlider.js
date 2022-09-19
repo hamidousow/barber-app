@@ -1,5 +1,5 @@
-import barberAction from '../assets/barber-action.jpg'
-import beard from '../assets/beard.jpg'
+import barberAction from '../images/barber-action.jpg'
+import beard from '../images/beard.jpg'
 
 const tabImages = [
     {

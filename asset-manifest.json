@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/barber-app/static/css/main.f8520df3.css",
-    "main.js": "/barber-app/static/js/main.8510fbbb.js",
+    "main.js": "/barber-app/static/js/main.add1fecf.js",
     "static/media/beard.jpg": "/barber-app/static/media/beard.9519d58b31920f9ca6d9.jpg",
     "static/media/outils-barber.jpg": "/barber-app/static/media/outils-barber.62a6d59fe698e9e1e41f.jpg",
     "static/media/barber-action.jpg": "/barber-app/static/media/barber-action.224f646a7b5a404c41b6.jpg",
@@ -16,10 +16,10 @@
     "static/media/slick.woff": "/barber-app/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/barber-app/index.html",
     "main.f8520df3.css.map": "/barber-app/static/css/main.f8520df3.css.map",
-    "main.8510fbbb.js.map": "/barber-app/static/js/main.8510fbbb.js.map"
+    "main.add1fecf.js.map": "/barber-app/static/js/main.add1fecf.js.map"
   },
   "entrypoints": [
     "static/css/main.f8520df3.css",
-    "static/js/main.8510fbbb.js"
+    "static/js/main.add1fecf.js"
   ]
 }
